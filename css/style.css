@@ -20,6 +20,25 @@
 body {
   background-color: black;
 }
-#clearBtn, #checkAgeBtn {
+.mainContainer {
+}
+
+#clearBtn,
+#checkAgeBtn {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 8px;
   padding: 10px 40px;
+  cursor: pointer;
+}
+
+#clearBtn:hover,
+#checkAgeBtn:hover {
+    background-color: aquamarine;
+}
+
+#result {
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10px;
 }
