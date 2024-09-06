@@ -20,6 +20,6 @@
 body {
   background-color: black;
 }
-.button {
-  padding: 10px 20px;
+#clearBtn, #checkAgeBtn {
+  padding: 10px 40px;
 }
