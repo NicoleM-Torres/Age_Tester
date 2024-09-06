@@ -16,15 +16,15 @@ document.getElementById("checkAgeBtn").addEventListener("click", function () {
     return;
   } // END OF IF STATEMENT
 
+  //turns string into int '10' arg specifies string should be parsed as a decimal
   const age = parseInt(userAge, 10);
 
   // SORT THROUGH USER INPUT AND CATEGORIZE AGE & DISPLAY YO SCREEN
-
   if (age < 18) {
-    result.textContent = "You are a minor.";
+    result.textContent = "You're a baby.";
     result.style.color = "orange";
   } else if (age >= 18 && age < 60) {
-    result.textContent = "You are an adult .";
+    result.textContent = "You're an adult .";
     result.style.color = "green";
   } else if (age >= 60) {
     result.textContent = "You're practically ancient.";
