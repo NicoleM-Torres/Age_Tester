@@ -1,0 +1,25 @@
+/* #region spaceHolders Display */
+@media (min-width: 992px) {
+  .spaceHolder {
+    display: block;
+  }
+  .space {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .spaceHolder {
+    display: none;
+  }
+  .space {
+    display: block;
+  }
+}
+/* #endregion */
+
+body {
+  background-color: black;
+}
+.button {
+  padding: 10px 20px;
+}
