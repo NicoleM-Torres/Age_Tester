@@ -6,7 +6,7 @@
 */
 
 document.getElementById("checkAgeBtn").addEventListener("click", function () {
-  const userAge = document.getElementById("userAge").ariaValueMax;
+  const userAge = document.getElementById("userAge").value;
   const result = document.getElementById("result");
 
   //MAKES SURE USER INPUT IS VALID
