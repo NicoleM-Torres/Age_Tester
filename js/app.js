@@ -10,8 +10,8 @@ document.getElementById("checkAgeBtn").addEventListener("click", function () {
   const result = document.getElementById("result");
 
   //MAKES SURE USER INPUT IS VALID
-  if (isNaN(userAge) || userAge === "" || userAge < 0 || userAge > 120) {
-    result.textContent = " ERROR: Enter a valid age between 0 & 120";
+  if (isNaN(userAge) || userAge === "" || userAge < 0 || userAge > 100) {
+    result.textContent = " ERROR: Enter a valid age between 0 & 100";
     result.style.color = "red";
     return;
   } // END OF IF STATEMENT
@@ -23,10 +23,10 @@ document.getElementById("checkAgeBtn").addEventListener("click", function () {
   if (age < 18) {
     result.textContent = "You are a minor.";
     result.style.color = "orange";
-  } else if (age >= 18 && age < 65) {
+  } else if (age >= 18 && age < 60) {
     result.textContent = "You are an adult .";
     result.style.color = "green";
-  } else if (age >= 65) {
+  } else if (age >= 60) {
     result.textContent = "You're practically ancient.";
     result.style.color = "blue";
   } //END OF IF ELSE STATEMENT
