@@ -23,10 +23,10 @@ document.getElementById("checkAgeBtn").addEventListener("click", function () {
   if (age < 18) {
     result.textContent = "You're a baby.";
     result.style.color = "orange";
-  } else if (age >= 18 && age < 60) {
+  } else if (age >= 18 && age < 65) {
     result.textContent = "You're an adult .";
     result.style.color = "green";
-  } else if (age >= 60) {
+  } else if (age >= 65) {
     result.textContent = "You're practically ancient.";
     result.style.color = "blue";
   } //END OF IF ELSE STATEMENT
